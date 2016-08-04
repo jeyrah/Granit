@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-import java.sql.Timestamp;
 import java.util.List;
 
 /**
@@ -71,7 +70,7 @@ public class PatientsAdapter extends BaseAdapter{
 
         mDateTime = mPatientsList.get(position).getDate1();
 
-        dateTime.setText(new ConvertTimeSTtoDateTime(mDateTime,"dd.MM.yyyy HH:mm").getFormattedDate());
+        dateTime.setText(new DateTime(mDateTime,"dd.MM.yyyy HH:mm").getFormattedDate());
 
         return convertView;
     }
