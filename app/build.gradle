@@ -35,4 +35,7 @@ dependencies {
     compile 'de.hdodenhof:circleimageview:2.1.0'
     //Picasso lib
     compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'org.mod4j.org.apache.commons:lang:2.1.0'
+    //Progres bar
+    compile 'pl.tajchert:waitingdots:0.2.0'
 }

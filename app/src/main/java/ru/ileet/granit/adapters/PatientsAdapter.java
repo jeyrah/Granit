@@ -1,4 +1,4 @@
-package ru.ileet.granit;
+package ru.ileet.granit.adapters;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,6 +12,10 @@ import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
+
+import ru.ileet.granit.helpers.DateTime;
+import ru.ileet.granit.data.Patients;
+import ru.ileet.granit.R;
 
 /**
  * Created by Ama on 22.07.2016.
@@ -60,7 +64,7 @@ public class PatientsAdapter extends BaseAdapter{
             Picasso.with(mContext)
                     .load(mPatientsList.get(position).getPhoto()+".jpg")
                     .placeholder(R.drawable.nofoto)
-                    .error(R.drawable.error)
+                    .error(R.drawable.nofoto)
                     .into(profileImage);
         }
 

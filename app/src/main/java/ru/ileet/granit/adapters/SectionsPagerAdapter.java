@@ -1,4 +1,4 @@
-package ru.ileet.granit;
+package ru.ileet.granit.adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

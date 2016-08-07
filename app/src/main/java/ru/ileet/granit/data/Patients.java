@@ -1,4 +1,4 @@
-package ru.ileet.granit;
+package ru.ileet.granit.data;
 
 import android.os.Parcel;
 import android.os.Parcelable;
